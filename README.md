@@ -1,6 +1,7 @@
 # eslint-force-equals-method
 
-This ESLint plugin is created for learning purposes. It prohibits the use of ==, !=, ===, !== in the comparison of immutable value objects and enforces the use of the equals method.
+This ESLint plugin is created for learning purposes.
+It prohibits the use of `==`, `!=`, `===` and `!==` operator in the comparison of immutable value objects and enforces the use of the equals method.
 
 ```ts
 class ValueObject {
